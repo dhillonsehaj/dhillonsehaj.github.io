@@ -5,8 +5,8 @@ body {
   text-decoration: none;
   padding: 0 15px 10px calc(100vw - 100% + 15px);
   margin: 20px auto;
-  max-width: 1000px;
-}
+  max-width: 80%;
+  }
 
 header {
   padding-top: 0.8em;
@@ -38,7 +38,7 @@ body header nav * {
 }
 
 body header nav li {
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 body main p {
@@ -127,4 +127,25 @@ a {
 
 a:hover {
   color: #8378c7;
+  text-decoration: none;
+}
+
+.grc:hover {
+  color: #2C882B;
+}
+
+.uw:hover {
+  color: #4b2e83;
+}
+
+.github:hover {
+  color:#000000
+}
+
+.linkedin:hover {
+  color: #00A0DC
+}
+
+.email:hover {
+  color: palevioletred;
 }
