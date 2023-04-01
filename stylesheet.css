@@ -6,11 +6,12 @@ body {
   padding: 0 15px 10px calc(100vw - 100% + 15px);
   margin: 20px auto;
   max-width: 80%;
-  }
+}
 
-header {
+body header {
   padding-top: 0.8em;
   vertical-align: middle;
+  font-size: auto;
 }
 
 header img, h1, p {
@@ -18,7 +19,7 @@ header img, h1, p {
 }
 
 body header img {
-  padding-right: 4px;
+  padding-right: 2px;
 }
 
 header p {
@@ -43,7 +44,7 @@ body header nav li {
 
 body main p {
   font-size: larger;
-  text-align: center;
+  line-height: 150%;
 }
 
 body main.information {
@@ -52,6 +53,7 @@ body main.information {
   justify-content: center;
   align-items: center;
   padding-top: 5em;
+  text-align: center;
 }
 
 body main.information div {
@@ -86,6 +88,14 @@ body main span.contacts * {
 
 body main span.contacts *:first-child {
   margin-left: 0px;
+}
+
+body main.about h1 {
+  padding-bottom: 1rem;
+}
+
+body main.about p {
+  text-align: left;
 }
 
 body footer ul.contacts {
